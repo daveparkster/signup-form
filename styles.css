@@ -15,7 +15,45 @@ body > .container {
 .container > aside {
   background-image: url("images/backgroundImg.jpg");
   flex: 4; 
+  display: flex;
+  flex-direction: column;
 }
+
+aside > div {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.logoText {
+  flex: 0.5;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0;
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+
+.logoName {
+  margin: 0;
+}
+
+.logoText > img {
+  width: 15em;
+  height: 15em;
+}
+
+aside > cite {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+
 
 /*right side*/
 .container > main {
