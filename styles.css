@@ -143,5 +143,27 @@ input {
 /*bottom section of signup form*/
 main > .reference {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
+
+.reference > * {
+  position: relative;
+  left: 3.19rem;
+  top: 2rem;
+}
+
+.reference > button {
+  position: relative;
+  width: 13rem;
+  height: 3rem;
+}
+
+.reference > p {
+  font-size: 1rem;
+  color: white;
+}
+
+
 
