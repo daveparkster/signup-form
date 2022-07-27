@@ -65,6 +65,16 @@ aside > cite {
   justify-content: flex-end;
   align-items: center;
   color: white; 
+  font-style: normal;
+}
+
+a:link{
+  color: darkgreen;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkgreen;
 }
 
 /*right side*/
