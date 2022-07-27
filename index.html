@@ -35,24 +35,36 @@
       </div>
       <form action="" method="post">
         <legend>Let's Get Started</legend>
-        
-        <label for="first_name">First Name</label>
-        <input type="text" id="first_name" name="first_name" placeholder="Richard">
-        
-        <label for="last_name">Last Name</label>
-        <input type="text" id="last_name" name="last_name" placeholder="Hendricks">
-
-        <label for="user_email">Email</label>
-        <input type="email" id="user_email" name="email" placeholder="richard@piper.net">
-
-        <label for="user_phone">Phone Number</label>
-        <input type="tel" id="user_phone" name="user_phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-
-        <label for="user_password">Password</label>
-        <input type="password" id="user_password" name="password">
-
-        <label for="confirm_password">Confirm Password</label>
-        <input type="password" id="confirm_password" name="password">
+        <fieldset class = "nameBox">
+          <div class="left">
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Richard">
+          </div>
+          <div class="right">
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Hendricks">
+          </div>
+        </fieldset>
+        <fieldset class="contactBox">
+          <div class="left">
+            <label for="user_email">Email</label>
+            <input type="email" id="user_email" name="email" placeholder="richard@piper.net">
+          </div>
+          <div class="right">
+            <label for="user_phone">Phone Number</label>
+            <input type="tel" id="user_phone" name="user_phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        </div>
+        </fieldset>
+        <fieldset class="passwordBox">
+          <div class="left">
+            <label for="user_password">Password</label>
+            <input type="password" id="user_password" name="password">
+          </div>
+          <div class="right">
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" id="confirm_password" name="password">
+          </div>
+      </fieldset>
       </form>
      <div class="reference">
       <button type="submit">Create Account</button>
