@@ -69,7 +69,7 @@ aside > cite {
 }
 
 a:link{
-  color: darkgreen;
+  color: white;
   text-decoration: none;
 }
 
@@ -229,6 +229,14 @@ button:hover {
   color: white;
   position: relative;
   left: 3.5rem;
+}
+
+a.check:link {
+  color: rgb(85, 248, 20);
+}
+
+a.check:visited {
+  color: darkgreen;
 }
 
 
