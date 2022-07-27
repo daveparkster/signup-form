@@ -124,6 +124,7 @@ form > fieldset {
 
 .left label,
 .right label {
+  font-size: 0.9rem;
   display: block;
   position: relative; 
   bottom: 0.4rem; /*adds spacing between label and input*/
