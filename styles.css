@@ -87,7 +87,7 @@ main > div {
 .description > * {
   color: white;
   width: clamp(45ch, 50%, 70ch);
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   position: relative;
   margin-left: 0;
   left: 3rem;
