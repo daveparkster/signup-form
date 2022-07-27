@@ -45,6 +45,12 @@ aside > div {
 
 .logoName {
   margin: 0;
+  font-size: 2.5rem;
+}
+
+.piper {
+ position: relative;
+ left: 1rem;
 }
 
 .logoText > img {
