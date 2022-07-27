@@ -34,35 +34,35 @@
         <p class="hook">Want to learn more on how your team can save up to 20%?</p>
       </div>
       <form action="" method="post">
-        <legend>Get Started</legend>
+        <legend>Let's Get Started</legend>
         <fieldset class = "nameBox">
           <div class="left">
             <label for="first_name">First Name</label>
-            <input type="text" id="first_name" name="first_name" placeholder="Richard">
+            <input type="text" id="first_name" name="first_name" placeholder="Richard" minlength="3" maxlength="20" required>
           </div>
           <div class="right">
             <label for="last_name">Last Name</label>
-            <input type="text" id="last_name" name="last_name" placeholder="Hendricks">
+            <input type="text" id="last_name" name="last_name" placeholder="Hendricks" minlength="2" maxlength="20" required>
           </div>
         </fieldset>
         <fieldset class="contactBox">
           <div class="left">
             <label for="user_email">Email</label>
-            <input type="email" id="user_email" name="email" placeholder="richard@piper.net">
+            <input type="email" id="user_email" name="email" placeholder="richard@piper.net" required>
           </div>
           <div class="right">
             <label for="user_phone">Phone Number</label>
-            <input type="tel" id="user_phone" name="user_phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <input type="tel" id="user_phone" name="user_phone" placeholder="012-345-6789" pattern="/^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/">
         </div>
         </fieldset>
         <fieldset class="passwordBox">
           <div class="left">
             <label for="user_password">Password</label>
-            <input type="password" id="user_password" name="password">
+            <input type="password" id="user_password" name="password" required>
           </div>
           <div class="right">
             <label for="confirm_password">Confirm Password</label>
-            <input type="password" id="confirm_password" name="password">
+            <input type="password" id="confirm_password" name="password" required>
           </div>
       </fieldset>
       </form>
