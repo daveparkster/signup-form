@@ -18,7 +18,7 @@ A signup form inspired by the fictitious company
  ### Links
  
  - [Source Code](https://github.com/daveparkster/signupForm)
- - [Active Page](https://daveparkster.github.io/signupForm/)
+ - [Active Page](https://daveparkster.github.io/signup-form/)
 
  
  ## Reflection
