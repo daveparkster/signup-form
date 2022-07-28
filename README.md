@@ -6,11 +6,11 @@
   - Tech Stack
   - Key Learnings
   - Future Development
-</br>
 
  ## Overview
 ```
-A signup form inspired by the fictitious company "Pied Piper" in HBO's TV Series "Silicon Valley".
+A signup form inspired by the fictitious company 
+"Pied Piper" in HBO's TV Series "Silicon Valley".
 ``` 
  ### Demo
 ![piedpiper](https://user-images.githubusercontent.com/40774386/181393433-6aef06dc-a21b-49ed-8132-a1946b5a13a8.gif)
@@ -35,7 +35,7 @@ A signup form inspired by the fictitious company "Pied Piper" in HBO's TV Series
  2. Importance of being vigiliant of CSS Precedence 
     rules.
  
- 3. A better understanding of Flexbox.
+ 3. Exposure to different use cases of FlexBox.
  ```
  ### Future Development
  ```
