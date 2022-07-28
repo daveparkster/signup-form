@@ -46,6 +46,8 @@ A signup form inspired by the fictitious company
     
  3. Recreate the signup form using Bootstrap 
     or Tailwind.
+    
+ 4. Add padding inside form's input.
  ```
 
 
