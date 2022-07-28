@@ -1,8 +1,8 @@
 # Table of Contents
-- [Overview](https://github.com/daveparkster/signupForm/edit/main/README.md#overview)
+- Overview
   - Demo
   - Links 
-- [Reflection](https://github.com/daveparkster/signupForm/edit/main/README.md#reflection)
+- Reflection
   - Tech Stack
   - Key Learnings
   - Future Development
@@ -25,29 +25,24 @@ A signup form inspired by the fictitious company
  ### Tech Stack
  ```
  HTML
- Vanilla CSS 
+ CSS
  ```
  ### Key Learnings
  ```
- 1. Exposure to different CSS properties and functions
+ 1) Exposure to different CSS properties and functions
     as well as different HTML elements. 
-    
- 2. Importance of being vigiliant of CSS Precedence 
+ 2) Importance of being vigiliant of CSS Precedence 
     rules.
- 
- 3. Exposure to different use cases of FlexBox.
+ 3. Exposure to different use cases of Flexbox.
  ```
  ### Future Development
  ```
- 1. Change colors within the form's inputs.
- 
- 2. Prevent the form's input from collapsing 
+ 1) Change colors within the form's inputs.
+ 2) Prevent the form's input from collapsing 
     when the user shrinks the screen.
-    
- 3. Recreate the signup form using Bootstrap 
+ 3) Recreate the signup form using Bootstrap 
     or Tailwind.
-    
- 4. Add padding inside form's input.
+ 4) Add padding inside form's input.
  ```
 
 
