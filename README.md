@@ -7,9 +7,10 @@
   - Key Learnings
   - Future Development
 </br>
+
  ## Overview
 ```
- A signup form inspired by the fictitious company "Pied Piper" in HBO's TV Series "Silicon Valley".
+A signup form inspired by the fictitious company "Pied Piper" in HBO's TV Series "Silicon Valley".
 ``` 
  ### Demo
 ![piedpiper](https://user-images.githubusercontent.com/40774386/181393433-6aef06dc-a21b-49ed-8132-a1946b5a13a8.gif)
