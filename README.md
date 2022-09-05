@@ -33,7 +33,7 @@ A signup form inspired by the fictitious company
     as well as different HTML elements. 
  2) Importance of being vigiliant of CSS Precedence 
     rules.
- 3. Exposure to different use cases of Flexbox.
+ 3) Exposure to different use cases of Flexbox.
  ```
  ### Future Development
  ```
